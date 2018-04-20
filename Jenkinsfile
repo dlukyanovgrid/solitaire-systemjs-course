@@ -54,7 +54,7 @@ notify("Deploy to staging?")
 }
 input 'Deploy to staging?'
 
-stage name: 'Deploy to staging', concurrency: 1
+stage name: 'Deploy to staging 1', concurrency: 1
 node {
     
     // write build number to index page so we can see this update
